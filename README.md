@@ -1,2 +1,2 @@
-# -web-hw04-web
+# web-hw04-web
 The simplest web application
