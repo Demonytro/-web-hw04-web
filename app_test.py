@@ -122,6 +122,7 @@ def run_socket_server(host, port):
     except KeyboardInterrupt:
         logging.info('Socket server stopped')
     finally:
+        logging.info('Socket server ERROR stopped')
         s_socket.close()
 
 
