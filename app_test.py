@@ -12,7 +12,7 @@ from datetime import datetime
 
 # env = Environment(loader=FileSystemLoader('.'))
 BASE_DIR = pathlib.Path()
-BUFFER_SIZE = 2048
+BUFFER_SIZE = 1024
 PORT_HTTP = 3000
 SOCKET_HOST = '127.0.0.1'
 SOCKET_PORT = 5000
